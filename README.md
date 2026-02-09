@@ -68,16 +68,16 @@ firebase deploy
 ## 📸 Screenshots
 
 ### ✨ Perfect Google Page Speed Insights
-![Page Speed Insights Results](screenshots/PageSpeedInsights.png)
+![Page Speed Insights Results](PageSpeedInsights.png)
 
 ### Light Mode & Hero Section
             *A clean, professional aesthetic with glassmorphism effects.*
-![Light Mode Home](screenshots/chandrikamohan.com_LightTheme.png)
+![Light Mode Home](chandrikamohan.com_LightTheme.png)
 
 
 ### Dark Mode
       *Deep space theme optimized for readability and battery saving.*
-![Dark Mode Home](screenshots/chandrikamohan.com_DarkTheme.png)
+![Dark Mode Home](chandrikamohan.com_DarkTheme.png)
 
 
 ## 📄 License
