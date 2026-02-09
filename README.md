@@ -1,6 +1,6 @@
 # Chandrika Mohan | Portfolio 🚀
 
-A high-performance, modern professional portfolio built for **Chandrika Mohan**, a Senior Fullstack Engineer & Team Lead. This site showcases technical expertise in AI-driven automation, scalable architectures, and modern web development.
+A high-performance, modern professional portfolio built for **myself (Chandrika Mohan)**, a Senior Fullstack Engineer & Team Lead. This site showcases technical expertise in AI-driven automation, scalable architectures, and modern web development.
 
 ## 🔗 Live URL     [chandrikamohan.com](https://chandrikamohan.com)
 
