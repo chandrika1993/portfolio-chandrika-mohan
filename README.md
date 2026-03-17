@@ -18,6 +18,7 @@ A high-performance, modern professional portfolio built for **myself (Chandrika 
 - **Styling**: Tailwind CSS, Lucide React (Icons)
 - **Backend/Infrastructure**: Firebase Hosting, Firebase Analytics
 - **Tools**: PostCSS, Autoprefixer, ESLint
+- **SEO**: Google Search Console, Bing Web Masters
 
 ## 🚀 Getting Started
 
@@ -82,6 +83,3 @@ firebase deploy
 
 ## 📄 License
 This project is for personal portfolio use. Content and design © 2025 Chandrika Mohan.
-
----
-*Built with precision and AI innovation.*
