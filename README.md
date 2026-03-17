@@ -26,17 +26,10 @@ A high-performance, modern professional portfolio built for **myself (Chandrika 
 - npm or yarn
 - Firebase CLI (`npm install -g firebase-tools`)
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/chandrikamohan/portfolio.git
-   cd portfolio
-   ```
+### Need a personalized Portfolio then get in touch
+ E-Mail: chandrikamohan@rocketmail.com
+ LinkedIn: https://www.linkedin.com/in/chandrikamohan
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
    
 ### Development
 Run the local development server:
@@ -81,7 +74,7 @@ firebase deploy
 
 
 ## 📄 License
-This project is for personal portfolio use. Content and design © 2025 Chandrika Mohan.
+This project is for personal portfolio use. Content and design © 2026 Chandrika Mohan.
 
 ---
 *Built with precision and AI innovation.*
