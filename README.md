@@ -69,7 +69,7 @@ firebase deploy
 ## 📸 Screenshots
 
 ### ✨ Perfect Google Page Speed Insights
-<img width="1874" height="960" alt="image" src="https://github.com/user-attachments/assets/f01cdf27-830a-41ee-84b7-f2cd301e1310" />
+<img width="1908" height="1522" alt="image" src="https://github.com/user-attachments/assets/50b80b75-82b2-48c2-8287-9ab6c5b8b72b" />
 
 
 ### ✨ GTmetrix Performance Report
