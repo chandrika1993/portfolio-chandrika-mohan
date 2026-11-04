@@ -68,8 +68,8 @@ firebase deploy
 
 ## 📸 Screenshots
 
-### ✨ Perfect Google Page Speed Insights
-<img width="1908" height="1522" alt="image" src="https://github.com/user-attachments/assets/50b80b75-82b2-48c2-8287-9ab6c5b8b72b" />
+### ✨ Google PageSpeed Insights
+![PageSpeed Insights: 98 performance, 100 accessibility, 100 best practices, 100 SEO](PageSpeedInsights.png)
 
 
 ### ✨ GTmetrix Performance Report
@@ -77,13 +77,23 @@ firebase deploy
 
 
 ### Light Mode & Hero Section
-            *A clean, professional aesthetic with glassmorphism effects.*
+*A clean, white Blueprint design with hand-drawn line art.*
 ![Light Mode Home](chandrikamohan.com_LightTheme.png)
 
 
 ### Dark Mode
-      *Deep space theme optimized for readability and battery saving.*
+*The same layout in a soft dark palette, following the system setting or the switch in the header.*
 ![Dark Mode Home](chandrikamohan.com_DarkTheme.png)
+
+
+### Project case study
+*Each project opens a page with a full-width hero and the story told in sideways chapters.*
+![Academic Portfolio Website project page](chandrikamohan.com_ProjectPage.png)
+![Project chapters in dark mode](chandrikamohan.com_ProjectChapters.png)
+
+
+### On mobile
+![Home page, project page and menu on a phone](chandrikamohan.com_Mobile.png)
 
 
 ## 📄 License
