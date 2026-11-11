@@ -1,114 +1,62 @@
 # Chandrika Mohan | Portfolio 🚀
 
-A high-performance, modern professional portfolio built for **myself (Chandrika Mohan)**, a Senior Fullstack Engineer & Team Lead. This site showcases technical expertise in AI-driven automation, scalable architectures, and modern web development.
+The source of my personal portfolio at [chandrikamohan.com](https://chandrikamohan.com). I'm a Senior Full Stack Engineer and Engineering Team Lead based in Saarbrücken, Germany. The site covers my experience, skills, education and case studies of selected projects.
 
 ## 🔗 Live URL     [chandrikamohan.com](https://chandrikamohan.com)
 
 ## ✨ Key Features
 
-- **Modern Responsive Design**: Built with **React 19** and **Tailwind CSS** for a fluid, accessible experience across all devices.
-- **Dark Mode Support**: Seamless transition between Light and Dark themes with system preference detection.
-- **Performance Optimized**: Achieves high scores in Core Web Vitals through Vite's lightning-fast build system and aggressive asset caching.
-- **SEO Ready**: Dynamic `sitemap.xml` and `robots.txt` generation for optimal search engine crawling.
-- **Glassmorphism UI**: High-end aesthetic using backdrop filters and custom indigo-based design tokens.
+- **Blueprint design**: A clean white layout with hand-drawn style line-art drawings that sketch themselves in on load. All motion is off for visitors who prefer reduced motion.
+- **Project case studies**: Every project has its own page at `/projects/<slug>/` with the problem, what was built, technical highlights and results.
+- **Dark mode**: Follows the system setting by default, with a light/dark switch in the header.
+- **Fast**: Every page is prerendered to static HTML at build time, fonts (Work Sans, JetBrains Mono) are self-hosted, and pages are served from the Firebase CDN behind Cloudflare.
+- **SEO and AI search ready**: Per-page titles, descriptions, canonical URLs and link previews, structured data on the home page, and a `sitemap.xml`, `robots.txt` and `llms.txt` generated at build time.
+- **Privacy by design**: No analytics, no tracking cookies, no third-party requests.
 
 ## 🛠 Tech Stack
 
 - **Frontend**: React 19, TypeScript, Vite
-- **Styling**: Tailwind CSS, Lucide React (Icons)
-- **Backend/Infrastructure**: Firebase Hosting, Firebase Analytics
-- **Tools**: PostCSS, Autoprefixer, ESLint
-- **SEO**: Google Search Console, Bing Web Masters
+- **Styling**: Hand-written CSS, inline SVG drawings and icons
+- **Prerendering**: React static rendering at build time (`prerender.mjs`)
+- **Hosting**: Firebase Hosting behind Cloudflare
+- **SEO**: Google Search Console, Bing Webmaster Tools
 
-## 🚀 Getting Started
+## 🚀 Build & Deployment
 
-### Prerequisites
-- Node.js (v18+)
-- npm or yarn
-- Firebase CLI (`npm install -g firebase-tools`)
+The source code is kept in a private repository. For reference, the site is built and deployed with:
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/chandrikamohan/portfolio.git
-   cd portfolio
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-   
-### Development
-Run the local development server:
 ```bash
-npm run dev
+npm ci
+npm run build    # type check, bundle, prerender every page, write sitemap.xml and llms.txt
+npx firebase-tools deploy --only hosting
 ```
 
-### Build & Deployment
-Build the project for production:
-```bash
-npm run build
-```
-
-Deploy to Firebase:
-```bash
-firebase deploy
-```
+Requires Node.js 20 or newer.
 
 ## 📁 Project Structure
 
-- `src/` (Conceptual root):
-  - `App.tsx`: Main application logic and AI integration.
-  - `data.ts`: Centralized configuration for CV data and personal info.
-  - `types.ts`: TypeScript interfaces for data consistency.
-  - `firebase.ts`: Firebase SDK initialization.
-- `public/`: Static assets, sitemap, and robots.txt.
-- `index.html`: Entry point with Tailwind configuration and import maps.
+- `index.html`: Page template with meta tags and structured data.
+- `index.tsx`, `App.tsx`: App entry and routing.
+- `entry-server.tsx`, `prerender.mjs`: Build-time prerendering, sitemap and `llms.txt`.
+- `components/`: Layout, home page, project pages, carousel and line-art drawings.
+- `content/data.ts`: All site content (experience, projects, skills, education).
+- `types.ts`: TypeScript types for the content.
+- `index.css`: Styles and design tokens for light and dark mode.
+- `assets/`: Static files (fonts, images, link preview images, CV, `robots.txt`).
+- `datenschutz.html`, `404.html`: Privacy policy and error page.
+- `firebase.json`: Hosting config, redirects and cache headers.
 
 ## 📈 Google Search Console
 
-*Web search, last 3 months (10 Aug to 9 Nov 2026).*
+Overview for the last 3 months (10 Aug to 9 Nov 2026):
 
-| Total clicks | Total impressions | Average CTR | Average position |
+| Clicks | Impressions | Average CTR | Average position |
 |---:|---:|---:|---:|
 | 12 | 246 | 4.9% | 9.5 |
 
-- **Indexed pages:** 5
-- **Brand search:** "chandrika mohan" ranks at an average position of **2.8** with an 11.9% click-through rate.
-
-### Top queries
-| Query | Clicks | Impressions | CTR | Position |
-|---|---:|---:|---:|---:|
-| chandrika mohan | 5 | 42 | 11.9% | 2.8 |
-| visual workflow builder | 0 | 16 | 0% | 55.3 |
-| visual automation builder | 0 | 4 | 0% | 26.2 |
-| workflow builder ui | 0 | 1 | 0% | 51.0 |
-| it dienstleister saarland | 0 | 1 | 0% | 83.0 |
-| visual workflow designer | 0 | 1 | 0% | 94.0 |
-
-### Top pages
-| Page | Clicks | Impressions | CTR | Position |
-|---|---:|---:|---:|---:|
-| `/` | 12 | 220 | 5.5% | 5.3 |
-| `/projects/visual-workflow-builder/` | 0 | 23 | 0% | 49.7 |
-| `/projects/friend-management-system/` | 0 | 2 | 0% | 5.0 |
-| `/projects/master-thesis-web-platforms/` | 0 | 1 | 0% | 7.0 |
-
-### Devices
-| Device | Clicks | Impressions | CTR | Position |
-|---|---:|---:|---:|---:|
-| Desktop | 8 | 120 | 6.7% | 13.9 |
-| Mobile | 4 | 126 | 3.2% | 5.3 |
-
-### Top countries
-| Country | Clicks | Impressions | CTR | Position |
-|---|---:|---:|---:|---:|
-| Germany | 7 | 18 | 38.9% | 7.2 |
-| India | 2 | 108 | 1.9% | 4.6 |
-| France | 2 | 12 | 16.7% | 1.5 |
-| United States | 0 | 54 | 0% | 18.2 |
-| Singapore | 0 | 13 | 0% | 3.8 |
+- Searches for my name rank at an average position of **2.8**.
+- 5 pages are indexed on Google.
+- Most clicks come from Germany, with impressions from over 20 countries.
 
 ## 📸 Screenshots
 
@@ -117,23 +65,23 @@ firebase deploy
 
 ### Light Mode & Hero Section
 *A clean, white Blueprint design with hand-drawn line art.*
-![Light Mode Home](chandrikamohan.com_LightTheme.png)
+![Light Mode Home](screenshot-light.png)
 
 
 ### Dark Mode
 *The same layout in a soft dark palette, following the system setting or the switch in the header.*
-![Dark Mode Home](chandrikamohan.com_DarkTheme.png)
+![Dark Mode Home](screenshot-dark.png)
 
 
 ### Project case study
 *Each project opens a page with a full-width hero and the story told in sideways chapters.*
-![Academic Portfolio Website project page](chandrikamohan.com_ProjectPage.png)
-![Project chapters in dark mode](chandrikamohan.com_ProjectChapters.png)
+![Academic Portfolio Website project page](screenshot-project-page.png)
+![Project chapters in dark mode](screenshot-project-chapters.png)
 
 
 ### On mobile
-![Home page, project page and menu on a phone](chandrikamohan.com_Mobile.png)
+![Home page, project page and menu on a phone](screenshot-mobile.png)
 
 
 ## 📄 License
-This project is for personal portfolio use. Content and design © 2025 Chandrika Mohan.
+This project is for personal portfolio use. Content and design © 2025-2026 Chandrika Mohan.
